@@ -1,0 +1,52 @@
+[
+    {
+        "id" : "1",
+        "text" : "lab assignment",
+        "state": "claimed",
+        "creator" : "Raman",
+        "isTaskClaimed" : "true",
+        "claimingUser" : "Raman",
+        "isTaskDone" : "true",
+        "isTaskCleared" : "false"
+    },
+    {
+        "id" : "2",
+        "text" : "Class Project",
+        "state": "unclaimed",
+        "creator" : "null",
+        "isTaskClaimed" : "false",
+        "claimingUser" : "null",
+        "isTaskDone" : "false",
+        "isTaskCleared" : "false"
+    },
+    {
+        "id" : "3",
+        "text" : "midterm",
+        "state": "claimed",
+        "creator" : "Raman",
+        "isTaskClaimed" : "true",
+        "claimingUser" : "Raman",
+        "isTaskDone" : "false",
+        "isTaskCleared" : "false"
+    },
+    {
+        "id" : "4",
+        "text" : "activity 1",
+        "state": "claimed",
+        "creator" : "happy",
+        "isTaskClaimed" : "true",
+        "claimingUser" : "happy",
+        "isTaskDone" : "false",
+        "isTaskCleared" : "false"
+    },
+    {
+        "id" : "5",
+        "text" : "Final exam",
+        "state": "claimed",
+        "creator" : "happy",
+        "isTaskClaimed" : "true",
+        "claimingUser" : "happy",
+        "isTaskDone" : "true",
+        "isTaskCleared" : "false"
+    }
+]

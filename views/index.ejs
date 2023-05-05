@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loh in Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- dropdown start here -->
+    <div class="form_center">
+        <h2>To Do Prototype </h2>
+    <div class="accordion box" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Log In 
+            </button>
+          </h2>
+          <!-- Log in start here ---------------------------- -->
+
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <form action="/login" method="POST">
+
+                    
+                    <div class="mb-3 ">
+                        <h2> Log In</h2>
+                        <label class="form-label" for="app_email">Email address</label>
+                        <input type="text"  class="form-control" name ="app_email"id="app_email" placeholder="Email">
+                    </div>
+                    <div class="mb-3 ">
+                        <label class="form-label" for="inputPassword">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+                    </div>
+                    
+                    <br>
+                    <button type="submit" class="btn btn-primary">Log In</button>
+                </form>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+              <!-- Sign up start here ---------------------------- -->
+              Sign Up
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <form action="/signup" method="POST">
+   
+                    <div class="mb-3 ">
+                        <h2> Sign Up</h2>
+                        <label class="form-label" for="inputEmail">Email address</label>
+                        <input type="email"  class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="mb-3 ">
+                        <label class="form-label" for="inputPassword">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" name="inputPassword" placeholder="Password">
+                    </div>
+                    <div class="mb-3 ">
+                     <label class="form-label" for="authentication"> Authentication</label>
+                     <input type="authentication" class="form-control" id="authentication" name="authentication" placeholder="Authentication">
+                 </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+</body>
+</html>
